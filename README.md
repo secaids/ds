@@ -160,7 +160,7 @@ plt.title("Most Revenue Generated based on Segment")
 plt.legend(pie[0], labels, loc="upper corner")
 plt.show()
 ```
-#### <a href="https://github.com/secaids/ds/#index">INDEX</a>#### <a href="https://github.com/secaids/ds/#index">INDEX</a>
+#### <a href="https://github.com/secaids/ds/#index">INDEX</a>
 ## Exp-4-Multivariate_Analysis
 ```py
 import pandas as pd
