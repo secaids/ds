@@ -496,6 +496,7 @@ df_corr = df5.copy()
 df_corr = df_corr[["Sales","Profit","Segment","Ship Mode","Region"]]
 df_corr.corr()
 ```
+#### <a href="https://github.com/secaids/ds/#index">INDEX</a>
 ## Exp-8-Data Visulaization
 ```py
 #line plots
