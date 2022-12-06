@@ -1,6 +1,12 @@
 # Index
-### <a href="github.com/secaids/ds/#Exp-1-Data_Cleanning>Ex-1-Data Cleaning</a>
-
+### <a href="https://github.com/secaids/ds#exp-1-data_cleaning">Ex-1-Data Cleaning</a>
+### <a href="https://github.com/secaids/ds#exp-2-outlier">Ex-2-Outlier</a>
+### <a href="https://github.com/secaids/ds#exp-3--univariate_analysis">Ex-3-Univariate Analysis</a>
+### <a href="https://github.com/secaids/ds#exp-4-multivariate_analysis">Ex-4-Multivariate Analysis</a>
+### <a href="https://github.com/secaids/ds#exp-5-feature_generation">Ex-5-Feature Generation</a>
+### <a href="https://github.com/secaids/ds#exp-6-feature-transformation">Ex-6-Feature Transformation</a>
+### <a href="https://github.com/secaids/ds#exp-7-data-visualization">Ex-7-Data Visualization</a>
+### <a href="https://github.com/secaids/ds#exp-8-data-visulaization">Ex-8-Data Visulaization</a>
 
 ## Exp-1-Data_Cleaning
 ```py
