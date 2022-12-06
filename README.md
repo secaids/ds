@@ -7,7 +7,6 @@
 ### <a href="https://github.com/secaids/ds#exp-6-feature-transformation">Ex-6-Feature Transformation</a>
 ### <a href="https://github.com/secaids/ds#exp-7-data-visualization">Ex-7-Data Visualization</a>
 ### <a href="https://github.com/secaids/ds#exp-8-data-visulaization">Ex-8-Data Visulaization</a>
-
 ## Exp-1-Data_Cleaning
 ```py
 import pandas as pd
@@ -39,6 +38,7 @@ df1.isnull().sum()
 
 df1.info()
 ```
+#### <a href="https://github.com/secaids/ds/#index">INDEX</a>
 ## Exp-2-Outlier
 ```py
 import pandas as pd
@@ -104,7 +104,7 @@ df5
 df5.shape
 sns.boxplot(x="height",data=df5)
 ```
-
+#### <a href="https://github.com/secaids/ds/#index">INDEX</a>
 ## Exp-3- Univariate_Analysis
 ```py
 import pandas as pd
@@ -160,7 +160,7 @@ plt.title("Most Revenue Generated based on Segment")
 plt.legend(pie[0], labels, loc="upper corner")
 plt.show()
 ```
-
+#### <a href="https://github.com/secaids/ds/#index">INDEX</a>#### <a href="https://github.com/secaids/ds/#index">INDEX</a>
 ## Exp-4-Multivariate_Analysis
 ```py
 import pandas as pd
@@ -202,7 +202,7 @@ plt.figure(figsize=(10,7))
 sns.scatterplot(df['Sub-Category'], df['Sales'], hue=df['Ship Mode'])
 plt.xticks(rotation = 90)
 ```
-
+#### <a href="https://github.com/secaids/ds/#index">INDEX</a>
 ## Exp-5-Feature_Generation
 ### Data.csv
 ```py
@@ -329,6 +329,7 @@ sc3=RobustScaler()
 df5=pd.DataFrame(sc3.fit_transform(df1),columns=['Passenger','Survived','Pclass','Sex','Age','SibSp','Parch','Fare','Embarked'])
 df5
 ```
+#### <a href="https://github.com/secaids/ds/#index">INDEX</a>
 ## Exp-6-Feature Transformation
 ```py
 import numpy as np
@@ -381,6 +382,7 @@ df['ModerateNegativeSkew_2'] = pd.DataFrame(qt.fit_transform(df[['Moderate Negat
 sm.qqplot(df['ModerateNegativeSkew_2'],fit=True,line='45')
 plt.show()
 ```
+#### <a href="https://github.com/secaids/ds/#index">INDEX</a>
 ## Exp-7-Data Visualization
 ```py
 import pandas as pd
@@ -579,3 +581,4 @@ plt.subplots(figsize=(12,7))
 sns.heatmap(df5.corr(),cmap="PuBu",annot=True)
 plt.show()
 ```
+#### <a href="https://github.com/secaids/ds/#index">INDEX</a>
